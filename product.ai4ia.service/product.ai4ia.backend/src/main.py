@@ -5,7 +5,7 @@ from src import models
 from src.db.database import SessionLocal, engine, Base
 from src import routers
 
-# Create database
+# Create database   
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
