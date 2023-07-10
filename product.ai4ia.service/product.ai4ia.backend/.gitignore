@@ -1,8 +1,8 @@
 # Folder
 venv/
 
-# Generate file
-__pycache__/
+# Generative file, folder
+__pycache__
 
 # Important file
 src/config.py
