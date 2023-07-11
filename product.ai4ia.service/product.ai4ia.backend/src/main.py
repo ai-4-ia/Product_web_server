@@ -1,17 +1,15 @@
 import uvicorn
 from fastapi import Depends, FastAPI, HTTPException, APIRouter
-from sqlalchemy.orm import Session
-from src import models
 from src.db.database import SessionLocal, engine, Base
 from src import routers
 
-# Create database   
+# Create database
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
 # Include Router
-app.include_router(routers.user.router)
+app.include_router(routers.usersrouter.router)
 
 
 @app.get("/")

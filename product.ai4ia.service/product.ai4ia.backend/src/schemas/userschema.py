@@ -5,6 +5,7 @@ from pydantic import BaseModel
 
 
 class UserBase(BaseModel):
+    username: str
     email: str
     name: str
     phone_number: int
@@ -19,4 +20,4 @@ class User(UserBase):
     is_activate: bool
 
     class Config:
-        orm_mode = True
+        from_attributes = True
