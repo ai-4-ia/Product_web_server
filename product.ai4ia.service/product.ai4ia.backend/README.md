@@ -1,5 +1,5 @@
 # IMPORTANT
-YOU need file folder core to run this project, pls ask Lam for this file, nguyenvuduclam@gmail.com
+YOU need folder core to run this project, pls ask Lam for this file, nguyenvuduclam@gmail.com
 
 # How to run this project
 ## 1. Install python
