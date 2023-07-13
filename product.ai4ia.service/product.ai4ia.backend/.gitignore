@@ -6,3 +6,4 @@ __pycache__
 
 # Important file
 core/
+.env

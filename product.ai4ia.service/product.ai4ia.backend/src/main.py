@@ -17,4 +17,4 @@ async def home_page():
     return {"message": "Welcome to my homepage"}
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="localhost", port=8000, reload=True)
+    uvicorn.run("main:app", host="localhost", port=80, reload=True)
