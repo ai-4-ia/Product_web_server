@@ -1,0 +1,9 @@
+# Folder
+venv/
+
+# Generative file, folder
+__pycache__
+
+# Important file, folder
+core/
+.env
